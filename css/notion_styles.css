@@ -1,0 +1,72 @@
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(../fonts/Inter/static/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: "ibm";
+    src: url(../fonts/IBM_Plex_Sans/static/IBMPlexSans-Regular.ttf);
+}
+@font-face {
+    font-family: "public sans";
+    src: url(../fonts/Public_Sans/static/PublicSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url(../fonts/Roboto/static/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "work sans";
+    src: url(../fonts/Work_Sans/static/WorkSans-Regular.ttf);
+}
+.ibm {
+    font-family: "ibm";
+}
+.inter {
+    font-family: "inter";
+}
+
+.flex-container {
+    display: flex;
+}
+
+/** Navigation bar **/
+
+.main-nav {
+    width:100%;
+    list-style: none;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+}
+
+
+.main-nav__left img{
+    height: 40px
+}
+.main-nav__items {
+    width: 600px;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.main-nav__btns {
+    list-style: none;
+}
+/** Navigation bar **/
+
+/** Section **/
+
+
+
+.about-img img {
+    width: 450px
+}
+
+/** Section **/
