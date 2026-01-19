@@ -1,5 +1,5 @@
 .container {
-    width: 1100px;
+    width: 900px;
     margin: 0 auto;
     
 }
@@ -8,10 +8,24 @@
     font-family: "inter";
     src: url(../fonts/Inter/static/Inter_18pt-Regular.ttf);
 }
-
+@font-face {
+    font-family: "inter";
+    src: url(../fonts/Inter/static/Inter_18pt-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "inter";
+    src: url(../fonts/Inter/static/Inter_18pt-ExtraBold.ttf);
+    font-weight: 800;
+}
 @font-face {
     font-family: "ibm";
     src: url(../fonts/IBM_Plex_Sans/static/IBMPlexSans-Regular.ttf);
+}
+@font-face {
+    font-family: "ibm";
+    src: url(../fonts/IBM_Plex_Sans/static/IBMPlexSans-Bold.ttf);
+    font-weight: 700;
 }
 @font-face {
     font-family: "public sans";
@@ -43,10 +57,13 @@
     width:100%;
     list-style: none;
     justify-content: space-between;
-    position: fixed;
-    background-color: white;
+    margin-bottom: 10rem
+    
 }
-
+.main-nav__item a{
+    color: black;
+    text-decoration: none;
+}
 
 .main-nav__left img{
     height: 40px
@@ -58,15 +75,153 @@
 }
 .main-nav__btns {
     list-style: none;
+    width: 17rem;
+    justify-content: space-evenly;
+}
+.main-nav__btn a{
+    color: black;
+    text-decoration: none;
 }
 /** Navigation bar **/
 
 /** Section **/
 
 
-
+.about-subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: grey;
+    margin-bottom: 0px;
+}
+.about-title {
+    font-size: 3.15rem;
+    font-weight: 800;
+    margin-top: 10px;
+}
 .about-img img {
-    width: 450px
+    width: 450px;
+    border-bottom: 3px solid black;
+}
+.about-text {
+    padding-top:10px;
+    padding-left: 50px;
+    box-sizing: border-box;
 }
 
+.about-flex-container {
+    margin-bottom: 120px
+}
+.about-video {
+    display: block;
+}
 /** Section **/
+
+.quote {
+    font-size: 2rem;
+    text-align:left;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.quote_text {
+    font-family: "public sans";
+    margin-bottom: 0;
+}
+.quote_author {
+    font-family: "roboto";
+    margin-top:10px;
+    color: #000000E6
+}
+.shared_section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.join_us {
+     width: 600px;
+}
+.shared_title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.shared_text {
+    font-family: "roboto";
+    color: #000000E6;
+    font-size: 1.1rem;
+    line-height: 26px
+}
+
+.join_us_text a {
+    color: black
+}
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+}
+.brand img {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+}
+
+.brand {
+    width: 300px;
+    height: 200px;
+    background-color: #f6f5f4;
+    border: 10px solid white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.order-1 {
+    order: 1;
+}
+.order-2 {
+    order: 2;
+}
+.order-3 {
+    order: 3;
+    
+}
+.order-4 {
+    order: 4;
+}.order-5 {
+    order: 5;
+}
+.order-6 {
+    order: 6;
+}
+
+#tech {
+    height: 55px;
+    align-self: center;
+}
+
+.form {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+
+.btn {
+    border: none;
+    height: 45px;
+    background-color: #212519;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 20px
+}
+.email {
+    border: 1px solid #ccc;
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+}
+input::placeholder {
+    font-size: 20px;
+}
+
