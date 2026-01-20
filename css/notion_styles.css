@@ -1,7 +1,11 @@
 .container {
     width: 900px;
     margin: 0 auto;
-    
+}
+
+.container-lg {
+    width: 1100px;
+    margin: 0 auto;
 }
 
 @font-face {
@@ -225,3 +229,19 @@ input::placeholder {
     font-size: 20px;
 }
 
+
+footer {
+    display: flex;
+}
+.footer__icons {
+    width: 30%;
+    background-color: #ccc;
+}
+.footer__texts {
+    width:70%;
+    background-color: #ddd;
+}
+
+.footer__logo {
+    width: 30px;
+}
